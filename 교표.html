@@ -4,12 +4,18 @@
 <head>
     <title>성일고등학교</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js.js"></script>
 </head>
 
 <body>
     <div id="banner">
-        <img src="logo.png" width="5%">
+        <img src="logo.png" width="60px">
         <h1 class="sungil">성일고등학교</h1>
+        <input type="button" value="night" onclick="
+        if(this.value == 'night'){col.body('darkgray', 'white'); col.a('powderblue'); this.value = 'day';}
+        else{col.body('white', 'black'); col.a('black'); this.value='night';}
+        ">
     </div>
 
     <div id="bm">
