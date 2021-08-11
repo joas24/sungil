@@ -35,10 +35,27 @@ li {
     font-size:25px;
     padding-right:50px;
 }
+a:hover{
+    color:gray;
+}
+a:active{
+    color:red;
+}
+*::selection{
+    background-color:white;
+    color:purple;
+}
+.yel::selection{
+    color:yellow;
+}
+.blu::selection{
+    color:blue;
+}
+.red::selection{
+    color:red;
+}
 @media(max-width: 500px){
     body{
         display:none;
     }
-
-
 }
