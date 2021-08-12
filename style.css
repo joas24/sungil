@@ -47,12 +47,24 @@ a:active{
 }
 .yel::selection{
     color:yellow;
+    
+}
+.yel{
+    text-shadow: 2px 2px 3px yellow;
 }
 .blu::selection{
     color:blue;
+    
+}
+.blu{
+    text-shadow: 2px 2px 3px blue;
 }
 .red::selection{
     color:red;
+    
+}
+.red{
+    text-shadow: 2px 2px 3px red;
 }
 @media(max-width: 500px){
     body{
