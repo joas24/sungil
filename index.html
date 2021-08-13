@@ -11,10 +11,10 @@
 <body>
     <div id="banner">
         <img src="logo.png" width="60px">
-        <h1 class="sungil"><span class="yel">성일</span><span class="blu">고등</span><span class="red">학교</span></h1>        <input type="button" value="night" onclick="
-        if(this.value == 'night'){col.body('darkgray', 'white'); col.a('powderblue'); this.value = 'day';}
-        else{col.body('white', 'black'); col.a('black'); this.value='night';}
-        ">
+        <h1 class="sungil"><span class="yel">성일</span><span class="blu">고등</span><span class="red">학교</span></h1>        
+        <input type="button" id="bt" value="night" onclick="
+        if(this.value == 'night'){col.body('darkgray', 'white'); col.a('powderblue'); col.bt('white', 'black'); this.value = 'day';}
+        else{col.body('white', 'black'); col.a('black'); col.bt('gray', 'white'); this.value='night';}">
     </div>
 
     <div id="bm">
@@ -25,6 +25,7 @@
             <li><a href="교기.html">교기</a></li>
             <li><a href="교훈.html">교훈</a></li>
             <li><a href="교가.html">교가</a></li>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
         </ul>
         <div class="information">
             위치 :
